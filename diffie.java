@@ -1,5 +1,5 @@
 import java.util.*;
-public class week9 {
+public class diffie {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

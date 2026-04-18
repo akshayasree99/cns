@@ -1,10 +1,10 @@
 
-public class week5 {
+public class blowfish {
 
     private static final int P[] = new int[18]; // P-array
     private static final int S[][] = new int[4][256]; // S-boxes
 
-    public week5(byte[] key) {
+    public blowfish(byte[] key) {
         keyExpansion(key);
     }
 

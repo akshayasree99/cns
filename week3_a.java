@@ -23,6 +23,7 @@ public class week3_a {
 				if(c>'z') c-=26;
 			}
 			if(Character.isUpperCase(c)) {
+				c+=k;
 				if (c>'Z') c-=26;
 			}
 			sb.append(c);
@@ -39,6 +40,7 @@ public class week3_a {
 				if(c<'a') c+=26;
 			}
 			if(Character.isUpperCase(c)) {
+				c-=k;
 				if(c<'A') c+=26;
 			}
 			sb.append(c);

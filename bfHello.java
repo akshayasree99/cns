@@ -1,7 +1,7 @@
 import java.util.Base64;
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
-public class week7 {
+public class bfHello {
 		public static String enc(String s, String key) throws Exception{
 			SecretKeySpec sk=new SecretKeySpec(key.getBytes(),"Blowfish");
 			
